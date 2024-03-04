@@ -64,7 +64,10 @@ const container = document.querySelector('.container')
 for (let i = 0; i < team.length; i++) {
     const member = team[i];
     console.log(member.name)
-    container.innerHTML += `<h3>Nome: ${member.name}</h3>  <div>Ruolo: ${member.role}<div> <img>Foto: ${member.image}</img>`
+    //STAMP IN DOM 
+    container.innerHTML += `<img src='./assets/img/${member.image}'> </img> <h3>Nome: ${member.name}</h3>  <div>Ruolo: ${member.role}<div>`
+
+
 
 }
 
