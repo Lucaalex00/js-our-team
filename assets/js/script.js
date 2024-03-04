@@ -62,7 +62,7 @@ for (const key in team) {
 const container = document.querySelector('.container')
 
 //PARAGRAPH
-const containerParagraph = `<p class="text-center text-danger"> lorem ipsum dolor allen ist</p>`
+const containerParagraph = `<p class="text-center  w-25 m-auto"> lorem ipsum dolor allen ist lorem ipsum dolor allen ist lorem ipsum</p>`
 container.insertAdjacentHTML('afterbegin', containerParagraph)
 
 //TITLE
@@ -79,7 +79,7 @@ for (let i = 0; i < team.length; i++) {
     const member = team[i];
     /*  console.log(member.name) */
     //STAMP IN DOM + //BONUS 1
-    const markup = `<div class="col-4 g-4"><div class="card"><img class="border border-5" src='./assets/img/${member.image}'> </img> <div class="bg-secondary-subtle"><h4>Nome: ${member.name}</h4>  <div>Ruolo: ${member.role}</div></div></div></div>`
+    const markup = `<div class="col-4 g-4"><div class="card"><img class="border border-5" src='./assets/img/${member.image}'> </img> <div class="bg-light"><h4 class="text-center">Nome: ${member.name}</h4> <h6 class="text-center">Ruolo: ${member.role}</h6></div></div></div>`
     rowElement.insertAdjacentHTML('beforeend', markup)
 
 
