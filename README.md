@@ -20,40 +20,6 @@
 
 /////////////////////////////////////
 
-const team = [
-{
-name: \'Wayne Barnett\',
-role: \'Founder & CEO\',
-image: \'wayne-barnett-founder-ceo.jpg\',
-},
-{
-name: \'Angela Caroll\',
-role: \'Chief Editor\',
-image: \'angela-caroll-chief-editor.jpg\',
-},
-{
-name: \'Walter Gordon\',
-role: \'Office Manager\',
-image: \'walter-gordon-office-manager.jpg\',
-},
-{
-name: \'Angela Lopez\',
-role: \'Social Media Manager\',
-image: \'angela-lopez-social-media-manager.jpg\',
-},
-{
-name: \'Scott Estrada\',
-role: \'Developer\',
-image: \'scott-estrada-developer.jpg\',
-},
-{
-name: \'Barbara Ramos\',
-role: \'Graphic Designer\',
-image: \'barbara-ramos-graphic-designer.jpg\',
-},
-];
-
-
 # Description
 
 - Tramite la const 'team', cicliamo for-in per recuperare il SINGOLO oggetto della lista e stampiamo AD OGNI CICLO il valore di .name, .role, .image
@@ -64,7 +30,7 @@ image: \'barbara-ramos-graphic-designer.jpg\',
 OPPURE
 - Andiamo a creare 3 elementi (name,role,image) a cui associamo i valori all'interno dell'elemento.
 
-- Creare un elemento img **(SE NON FATTO IN PRECEDENZA)** con src= 'valore di image' e andiamo a stamparlo in pagina all'interno del nostro contenitore nella DOM.
+- Creare un elemento img **(SE NON FATTO IN PRECEDENZA)** con ATTRIBUTE src= 'valore di image' e andiamo a stamparlo in pagina all'interno del nostro contenitore nella DOM.
 
 -Creiamo **X** card tramite HTML o in modo dinamico tramite JS con il document.createElement('card')
 **USIAMO BOOTSTRAP PERCHE' SONO PIGRO**
